@@ -1,0 +1,1 @@
+create table users(user_name varchar(255), password varchar(255), role varchar(255));
