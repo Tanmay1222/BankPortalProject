@@ -9,7 +9,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication(scanBasePackages = "com.project.*")
 @EntityScan(basePackages = "com.project.entities")
 @EnableJpaRepositories(basePackages = "com.project.repositories")
-@EnableDiscoveryClient(autoRegister = true)
 public class DebtCollectionManagement1Application {
 
 	public static void main(String[] args) {
