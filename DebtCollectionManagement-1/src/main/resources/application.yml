@@ -16,7 +16,6 @@ spring:
       location: 
         banner.txt
 
-
 #eureka:
 #  client:
 #    region: default

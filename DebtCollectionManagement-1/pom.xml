@@ -62,7 +62,7 @@
 			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
 			<version>2.4.0</version>
 		</dependency>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter</artifactId>
 		</dependency>
@@ -75,8 +75,9 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+		-->
 	</dependencies>
-	<dependencyManagement>
+<!-- 	<dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
@@ -87,7 +88,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
+-->
 	<build>
 		<plugins>
 			<plugin>
